@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/parent_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/beige"
+android:orientation="horizontal">
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_height="fill_parent" android:layout_width="fill_parent">
+		<LinearLayout
+			android:layout_height="fill_parent" android:layout_width="wrap_content">
+			<ImageView
+				android:id="@+id/memolist_title"
+				android:layout_alignParentTop="true"
+				android:background="@drawable/memo_title_land"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"/>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_height="fill_parent"
+		android:layout_width="wrap_content" android:layout_weight="1">
+			<LinearLayout
+				android:id="@+id/LinearLayout01"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_marginTop="20dip"
+				android:layout_marginBottom="20dip"
+			>
+				<TextView
+					android:id="@+id/memo_empty"
+					android:text="@string/memo_empty"
+					android:textSize="18sp"
+					android:typeface="serif"
+					android:layout_width="fill_parent"
+					android:textColor="#660000"
+					android:background="@color/beige"
+					android:layout_height="fill_parent"
+					android:layout_marginLeft="10dip"
+				></TextView>
+				<ListView
+					android:id="@+id/MemoListView"
+					android:layout_height="fill_parent"
+					android:layout_width="fill_parent"
+					android:choiceMode="multipleChoice"
+					android:divider="@drawable/line"
+					android:fadingEdge="none"
+				></ListView>
+			</LinearLayout>
+		</LinearLayout>
+	<LinearLayout android:id="@+id/MenuButtonLayout" android:weightSum="4" android:background="@color/beige" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="60dp">
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:layout_weight="1">
+			<ImageButton android:id="@+id/to_top2_b" android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/to_top_b_stateful" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:layout_weight="1">
+			<ImageButton android:id="@+id/update_b" android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/update_b_stateful" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:layout_weight="1">
+			<ImageButton android:id="@+id/mail_b" android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/mail_b_stateful" />
+		</LinearLayout>
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:layout_weight="1">
+		</LinearLayout>
+		
+		
+		
+	</LinearLayout></LinearLayout>
+	
+</LinearLayout>

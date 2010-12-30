@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- アプリ名 -->
+<string name="app_name">Okusama</string>
+<string name="load">取得中...</string>
+<string name="no_network">ネットワークに接続できません</string>
+<string name="error_url">Okusamaについてを表示できません</string>
+<string name="first_info">画面の向きはメニューで変更できます</string>
+<!-- 設定 -->
+<string name="menu_setting">設定</string>
+<string name="menu_exit">終了</string>
+<string name="pre_title">Okusama設定</string>
+<string name="pre_list_title">画面の向き</string>
+<string name="pre_list_summary">縦向き固定</string>
+<string name="pre_list_dialog_title">画面の向き</string>
+
+
+<!-- チェックリスト画面 -->
+<string name="empty">アイテムが未登録です</string>
+<string name="deleate_empty">削除できるアイテムがありません</string>
+
+
+<!--  追加ダイアログ -->
+<string name="categoly">カテゴリ選択</string>
+<string name="item_name">アイテム名</string>
+<string name="input_error1">アイテム名が未入力です</string>
+<string name="input_error2">アイテム名が同じアイテムが既に登録済みです</string>
+
+<string name="select_icons">既存アイコンから選択</string>
+<string name="select_galaly">ギャラリーから選択</string>
+<string name="camera">カメラ撮影</string>
+
+
+<!-- 削除画面 -->
+<string name="deleate_dialog_msg"> を削除します</string>
+
+<!-- 買い物リスト画面 -->
+<string name="memo_empty">買い物メモのアイテムがありません</string>
+<string name="last_address">前回の送信先</string>
+<string name="select_contact">連絡先から選択する</string>
+<string name="direct_input">アドレス直接入力</string>
+
+<string name="send_address"> 送信アドレス：</string>
+<string name="send_name">宛先 : </string>
+<string name="mail_title">【Okusama】お買い物のお願い m(--)m</string>
+<string name="mail_msg1">帰りに買い物お願いします!</string>
+<string name="mail_msg2">【買い物リスト】</string>
+<string name="no_history">送信履歴がありません</string>
+<string name="no_input_address">メールアドレスが未入力です</string>
+
+
+<!--  カテゴリ名   -->
+<string name="food">常備食品</string>
+<string name="kitchen">台所</string>
+<string name="washroom">洗面所</string>
+<string name="bathroom">風呂トイレ</string>
+<string name="living">居間</string>
+<string name="etc">その他</string>
+
+<!--  常備食品カテゴリ   -->
+<string name="miso">味噌</string>
+<string name="salt">塩</string>
+<string name="soy">醤油</string>
+<string name="sake">料理酒</string>
+
+<!--  台所カテゴリ   -->
+<string name="dish_liquid">食器用洗剤</string>
+<string name="small_wrap">サランラップ(小)</string>
+<string name="large_wrap">サランラップ(大)</string>
+<string name="aluminum_foil">アルミホイル</string>
+
+<!--  洗面所カテゴリ   -->
+<string name="hand_soap">ハンドソープ</string>
+<string name="toothpaste">歯磨き粉</string>
+<string name="landry_detergent">洗濯用洗剤</string>
+<string name="softener">柔軟剤</string>
+
+<!--  トイレ／風呂カテゴリ   -->
+<string name="body_wash">ボディシャンプー</string>
+<string name="shampoo">シャンプー</string>
+<string name="rinse">リンス</string>
+<string name="toilet_paper">トイレットペーパー</string>
+
+<!--  リビングカテゴリ   -->
+<string name="tissue">箱ティッシュ</string>
+<string name="sticky_roller">コロコロの替え</string>
+<string name="flooring_wiper">フローリングワイパーの替え</string>
+<string name="cleaner_bag">掃除機紙パック</string>
+
+</resources>

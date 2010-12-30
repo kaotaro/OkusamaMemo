@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="#ffffff"
+>
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_margin="30dip"
+	>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/dialogmsg"
+			android:textColor="@color/brown"
+			android:textSize="18sp"
+			android:typeface="serif"
+		>
+		</TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/MenuButtonLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="80dip"
+		android:weightSum="2"
+	>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:layout_weight="1"
+		>
+			<ImageButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/d_yes_b_stateful"
+				android:id="@+id/delete_yesbutton"/>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center"
+			android:layout_weight="1"
+		>
+			<ImageButton
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/d_cancel_b_stateful"
+				android:id="@+id/delete_cancelbutton"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

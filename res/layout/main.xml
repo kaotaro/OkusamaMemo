@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/top"
+>
+
+	<LinearLayout
+		android:id="@+id/LinearLayout02"
+		android:layout_width="fill_parent"
+		android:weightSum="2"
+		android:orientation="horizontal"
+		android:layout_above="@+id/MenuButtonLayout"
+		android:layout_alignParentTop="true"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="60dip"
+	>
+		<LinearLayout
+			android:id="@+id/LinearLayout21"
+			android:layout_weight="1"
+			android:layout_width="fill_parent"
+			android:gravity="center"
+			android:layout_height="fill_parent"
+		>
+			<ImageView
+				android:layout_width="135dip"
+				android:id="@+id/mamoButton"
+				android:clickable="true"
+				android:src="@drawable/touch_b_stateful"
+				android:layout_height="300dip"
+			>
+			</ImageView>
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/LinearLayout22"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+		>
+			<ImageView
+				android:layout_width="135dip"
+				android:id="@+id/listButton"
+				android:clickable="true"
+				android:src="@drawable/touch_b_stateful"
+				android:layout_height="300dip"
+			></ImageView>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/aboutButtonLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="60dip"
+		android:weightSum="4"
+		android:layout_alignParentBottom="true"
+		android:gravity="right"
+	>
+		<ImageView
+			android:layout_width="135dip"
+			android:clickable="true"
+			android:id="@+id/aboutButton"
+			android:layout_height="60dip"
+			android:src="@drawable/touch_s_b_stateful"
+			android:layout_marginRight="10dip"
+		></ImageView>
+	</LinearLayout>
+	
+	</RelativeLayout>
+	

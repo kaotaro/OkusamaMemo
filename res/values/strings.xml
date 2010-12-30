@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- アプリ名 -->
+<string name="app_name">Okusama</string>
+<string name="load">Loading...</string>
+<string name="no_network">Can not connect Network.</string>
+<string name="error_url">Can not show howto page.</string>
+<string name="first_info">The orientation of the screen is revokable in the menu. </string>
+
+<!-- 設定 -->
+<string name="menu_setting">Setting</string>
+<string name="menu_exit">Exit</string>
+<string name="pre_title">Setting of Okusama</string>
+<string name="pre_list_title">Screen Orientation</string>
+<string name="pre_list_summary">portrait</string>
+<string name="pre_list_dialog_title">Screen Orientation</string>
+
+<!-- チェックリスト画面 -->
+<string name="empty">No entry item...</string>
+<string name="deleate_empty">No deletable item...</string>
+
+<!--  追加ダイアログ -->
+<string name="categoly">Select Category</string>
+<string name="item_name">Item Name</string>
+<string name="input_error1">No input "Item Name" error</string>
+<string name="input_error2">Duplicate registration error</string>
+
+<string name="select_icons">Select from default icons</string>
+<string name="select_galaly">Select from gallery</string>
+<string name="camera">Camera shooting</string>
+
+
+<!-- 削除画面 -->
+<string name="deleate_dialog_msg"> delete ok?</string>
+
+<!-- 買い物リスト画面 -->
+<string name="memo_empty">No shopping list item.</string>
+<string name="last_address">Last email address you send</string>
+<string name="select_contact">Select from contact</string>
+<string name="direct_input">Input address directly</string>
+<string name="no_input_address">No Input_MailAddress!</string>
+
+<string name="send_name">Name : </string>
+<string name="send_address">Send address : </string>
+<string name="mail_title">【 Okusama 】Shopping Request ：D </string>
+<string name="mail_msg1">Please buy some products in this shopping list</string>
+<string name="mail_msg2">【 Shopping List 】</string>
+<string name="no_history">No your send history.</string>
+
+<!--  カテゴリ名   -->
+<string name="food">food</string>
+<string name="kitchen">kitchen</string>
+<string name="washroom">washroom</string>
+<string name="bathroom">bathroom</string>
+<string name="living">living</string>
+<string name="etc">etc</string>
+
+<!--  常備食品カテゴリ   -->
+<string name="miso">miso</string>
+<string name="salt">salt</string>
+<string name="soy">soy</string>
+<string name="sake">sake</string>
+
+<!--  台所カテゴリ   -->
+<string name="dish_liquid">dish liquid</string>
+<string name="small_wrap">wrap(small)</string>
+<string name="large_wrap">wrap(large)</string>
+<string name="aluminum_foil">aluminum foil</string>
+
+<!--  洗面所カテゴリ   -->
+<string name="hand_soap">hand soap</string>
+<string name="toothpaste">toothpaste</string>
+<string name="landry_detergent">landry detergent</string>
+<string name="softener">softener</string>
+
+<!--  トイレ／風呂カテゴリ   -->
+<string name="body_wash">body wash</string>
+<string name="shampoo">shampoo</string>
+<string name="rinse">rinse</string>
+<string name="toilet_paper">toilet paper</string>
+
+<!--  リビングカテゴリ   -->
+<string name="tissue">tissue</string>
+<string name="sticky_roller">spare of sticky roller</string>
+<string name="flooring_wiper">spare of flooring wiper</string>
+<string name="cleaner_bag">cleaner bag</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="select_categoly">
+		<item>food</item>
+		<item>kitchen</item>
+		<item>washroom</item>
+		<item>bathroom</item>
+		<item>living</item>
+		<item>etc</item>
+	</string-array>
+	<string-array name="prelist_entries">
+		<item>portrait</item>
+		<item>landscape</item>
+	</string-array>
+	<string-array name="prelist_enttryvalues">
+		<item>port</item>
+		<item>land</item>
+	</string-array>
+	
+</resources>

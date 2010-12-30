@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string-array name="select_categoly">
+		<item>常備食品</item>
+		<item>台所</item>
+		<item>洗面所</item>
+		<item>風呂トイレ</item>
+		<item>居間</item>
+		<item>その他</item>
+	</string-array>
+	
+	<string-array name="prelist_entries">
+		<item>縦向き固定で使用する</item>
+		<item>横向き固定で使用する</item>
+	</string-array>
+	<string-array name="prelist_enttryvalues">
+		<item>port</item>
+		<item>land</item>
+	</string-array>
+	
+</resources>
